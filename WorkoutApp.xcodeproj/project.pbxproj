@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		0A20214829A65FF900408CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214729A65FF900408CAD /* AppDelegate.swift */; };
 		0A20214A29A65FF900408CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214929A65FF900408CAD /* SceneDelegate.swift */; };
-		0A20214C29A65FF900408CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214B29A65FF900408CAD /* ViewController.swift */; };
-		0A20214F29A65FF900408CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A20214D29A65FF900408CAD /* Main.storyboard */; };
+		0A20214C29A65FF900408CAD /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214B29A65FF900408CAD /* OverviewViewController.swift */; };
 		0A20215129A65FFA00408CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A20215029A65FFA00408CAD /* Assets.xcassets */; };
 		0A20215429A65FFA00408CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A20215229A65FFA00408CAD /* LaunchScreen.storyboard */; };
+		0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20215D29A661BE00408CAD /* TabBarController.swift */; };
+		0A20216129A6628D00408CAD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20216029A6628D00408CAD /* UIColor+Extensions.swift */; };
+		0A20216429A6632300408CAD /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20216329A6632300408CAD /* Resources.swift */; };
+		0A20216629A66E7600408CAD /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20216529A66E7600408CAD /* NavBarController.swift */; };
+		0A20216929A6711C00408CAD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20216829A6711C00408CAD /* BaseController.swift */; };
+		0A20216B29A6738000408CAD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20216A29A6738000408CAD /* UIView+Extensions.swift */; };
+		0A20217229A674DF00408CAD /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20217129A674DF00408CAD /* SessionController.swift */; };
+		0A20217429A6753000408CAD /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20217329A6753000408CAD /* ProgressController.swift */; };
+		0A20217629A6754B00408CAD /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20217529A6754B00408CAD /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A20214429A65FF900408CAD /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A20214729A65FF900408CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A20214929A65FF900408CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A20214B29A65FF900408CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A20214E29A65FF900408CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A20214B29A65FF900408CAD /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		0A20215029A65FFA00408CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A20215329A65FFA00408CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A20215529A65FFA00408CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A20215D29A661BE00408CAD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0A20216029A6628D00408CAD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		0A20216329A6632300408CAD /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		0A20216529A66E7600408CAD /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		0A20216829A6711C00408CAD /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		0A20216A29A6738000408CAD /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		0A20217129A674DF00408CAD /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		0A20217329A6753000408CAD /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		0A20217529A6754B00408CAD /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,103 @@
 		0A20214629A65FF900408CAD /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A20215F29A6627500408CAD /* Helpers */,
+				0A20215B29A6609A00408CAD /* Application */,
+				0A20216729A6710000408CAD /* Contollers */,
+				0A20215C29A660AD00408CAD /* SupFiles */,
+			);
+			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		0A20215B29A6609A00408CAD /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				0A20214729A65FF900408CAD /* AppDelegate.swift */,
 				0A20214929A65FF900408CAD /* SceneDelegate.swift */,
-				0A20214B29A65FF900408CAD /* ViewController.swift */,
-				0A20214D29A65FF900408CAD /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0A20215C29A660AD00408CAD /* SupFiles */ = {
+			isa = PBXGroup;
+			children = (
 				0A20215029A65FFA00408CAD /* Assets.xcassets */,
 				0A20215229A65FFA00408CAD /* LaunchScreen.storyboard */,
 				0A20215529A65FFA00408CAD /* Info.plist */,
 			);
-			path = WorkoutApp;
+			path = SupFiles;
+			sourceTree = "<group>";
+		};
+		0A20215F29A6627500408CAD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A20216229A6629100408CAD /* Extensions */,
+				0A20216329A6632300408CAD /* Resources.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A20216229A6629100408CAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A20216029A6628D00408CAD /* UIColor+Extensions.swift */,
+				0A20216A29A6738000408CAD /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A20216729A6710000408CAD /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				0A20217029A674C400408CAD /* Settings */,
+				0A20216F29A674BC00408CAD /* Progress */,
+				0A20216E29A674B200408CAD /* Session */,
+				0A20216D29A674A900408CAD /* Overview */,
+				0A20216C29A6749500408CAD /* Base */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		0A20216C29A6749500408CAD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0A20216529A66E7600408CAD /* NavBarController.swift */,
+				0A20215D29A661BE00408CAD /* TabBarController.swift */,
+				0A20216829A6711C00408CAD /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A20216D29A674A900408CAD /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				0A20214B29A65FF900408CAD /* OverviewViewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		0A20216E29A674B200408CAD /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				0A20217129A674DF00408CAD /* SessionController.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		0A20216F29A674BC00408CAD /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				0A20217329A6753000408CAD /* ProgressController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		0A20217029A674C400408CAD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0A20217529A6754B00408CAD /* SettingsController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +231,6 @@
 			files = (
 				0A20215429A65FFA00408CAD /* LaunchScreen.storyboard in Resources */,
 				0A20215129A65FFA00408CAD /* Assets.xcassets in Resources */,
-				0A20214F29A65FF900408CAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A20214C29A65FF900408CAD /* ViewController.swift in Sources */,
+				0A20217629A6754B00408CAD /* SettingsController.swift in Sources */,
+				0A20214C29A65FF900408CAD /* OverviewViewController.swift in Sources */,
+				0A20216629A66E7600408CAD /* NavBarController.swift in Sources */,
+				0A20216129A6628D00408CAD /* UIColor+Extensions.swift in Sources */,
+				0A20216B29A6738000408CAD /* UIView+Extensions.swift in Sources */,
 				0A20214829A65FF900408CAD /* AppDelegate.swift in Sources */,
+				0A20217429A6753000408CAD /* ProgressController.swift in Sources */,
+				0A20216429A6632300408CAD /* Resources.swift in Sources */,
+				0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */,
+				0A20217229A674DF00408CAD /* SessionController.swift in Sources */,
+				0A20216929A6711C00408CAD /* BaseController.swift in Sources */,
 				0A20214A29A65FF900408CAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +259,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A20214D29A65FF900408CAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A20214E29A65FF900408CAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A20215229A65FFA00408CAD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +393,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM795YG5L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +405,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aGorelkin.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +423,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM795YG5L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/SupFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +435,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aGorelkin.WorkoutApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
