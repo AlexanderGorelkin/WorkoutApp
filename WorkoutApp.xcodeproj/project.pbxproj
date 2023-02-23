@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A20214829A65FF900408CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214729A65FF900408CAD /* AppDelegate.swift */; };
 		0A20214A29A65FF900408CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214929A65FF900408CAD /* SceneDelegate.swift */; };
-		0A20214C29A65FF900408CAD /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214B29A65FF900408CAD /* OverviewViewController.swift */; };
+		0A20214C29A65FF900408CAD /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20214B29A65FF900408CAD /* OverviewController.swift */; };
 		0A20215129A65FFA00408CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A20215029A65FFA00408CAD /* Assets.xcassets */; };
 		0A20215429A65FFA00408CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A20215229A65FFA00408CAD /* LaunchScreen.storyboard */; };
 		0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20215D29A661BE00408CAD /* TabBarController.swift */; };
@@ -22,13 +22,15 @@
 		0A20217429A6753000408CAD /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20217329A6753000408CAD /* ProgressController.swift */; };
 		0A20217629A6754B00408CAD /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A20217529A6754B00408CAD /* SettingsController.swift */; };
 		0A8E9C3C29A74FFA00BBE834 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */; };
+		0A8E9C3E29A75E3E00BBE834 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */; };
+		0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A20214429A65FF900408CAD /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A20214729A65FF900408CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A20214929A65FF900408CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A20214B29A65FF900408CAD /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		0A20214B29A65FF900408CAD /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		0A20215029A65FFA00408CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A20215329A65FFA00408CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A20215529A65FFA00408CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		0A20217329A6753000408CAD /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		0A20217529A6754B00408CAD /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				0A20216529A66E7600408CAD /* NavBarController.swift */,
 				0A20215D29A661BE00408CAD /* TabBarController.swift */,
 				0A20216829A6711C00408CAD /* BaseController.swift */,
+				0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -145,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8E9C3A29A74FD500BBE834 /* Views */,
-				0A20214B29A65FF900408CAD /* OverviewViewController.swift */,
+				0A20214B29A65FF900408CAD /* OverviewController.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */,
+				0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,7 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A20217629A6754B00408CAD /* SettingsController.swift in Sources */,
-				0A20214C29A65FF900408CAD /* OverviewViewController.swift in Sources */,
+				0A20214C29A65FF900408CAD /* OverviewController.swift in Sources */,
+				0A8E9C3E29A75E3E00BBE834 /* OverviewNavBar.swift in Sources */,
 				0A20216629A66E7600408CAD /* NavBarController.swift in Sources */,
 				0A20216129A6628D00408CAD /* UIColor+Extensions.swift in Sources */,
 				0A20216B29A6738000408CAD /* UIView+Extensions.swift in Sources */,
@@ -263,6 +270,7 @@
 				0A20216429A6632300408CAD /* Resources.swift in Sources */,
 				0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */,
 				0A20217229A674DF00408CAD /* SessionController.swift in Sources */,
+				0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */,
 				0A20216929A6711C00408CAD /* BaseController.swift in Sources */,
 				0A20214A29A65FF900408CAD /* SceneDelegate.swift in Sources */,
 			);
