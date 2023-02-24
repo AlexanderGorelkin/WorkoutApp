@@ -24,6 +24,9 @@
 		0A8E9C3C29A74FFA00BBE834 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */; };
 		0A8E9C3E29A75E3E00BBE834 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */; };
 		0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */; };
+		0AFCC5A929A92862005506AC /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5A829A92862005506AC /* WeekView.swift */; };
+		0AFCC5AB29A92A28005506AC /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5AA29A92A28005506AC /* WeekdayView.swift */; };
+		0AFCC5AD29A92D22005506AC /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5AC29A92D22005506AC /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0AFCC5A829A92862005506AC /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		0AFCC5AA29A92A28005506AC /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		0AFCC5AC29A92D22005506AC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 			children = (
 				0A20216029A6628D00408CAD /* UIColor+Extensions.swift */,
 				0A20216A29A6738000408CAD /* UIView+Extensions.swift */,
+				0AFCC5AC29A92D22005506AC /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,10 +189,20 @@
 		0A8E9C3A29A74FD500BBE834 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0AFCC5A729A9284C005506AC /* WeekView */,
 				0A8E9C3B29A74FFA00BBE834 /* SecondaryButton.swift */,
 				0A8E9C3D29A75E3E00BBE834 /* OverviewNavBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0AFCC5A729A9284C005506AC /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCC5A829A92862005506AC /* WeekView.swift */,
+				0AFCC5AA29A92A28005506AC /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFCC5A929A92862005506AC /* WeekView.swift in Sources */,
 				0A20217629A6754B00408CAD /* SettingsController.swift in Sources */,
 				0A20214C29A65FF900408CAD /* OverviewController.swift in Sources */,
 				0A8E9C3E29A75E3E00BBE834 /* OverviewNavBar.swift in Sources */,
@@ -268,9 +286,11 @@
 				0A8E9C3C29A74FFA00BBE834 /* SecondaryButton.swift in Sources */,
 				0A20217429A6753000408CAD /* ProgressController.swift in Sources */,
 				0A20216429A6632300408CAD /* Resources.swift in Sources */,
+				0AFCC5AD29A92D22005506AC /* Date+Extensions.swift in Sources */,
 				0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */,
 				0A20217229A674DF00408CAD /* SessionController.swift in Sources */,
 				0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */,
+				0AFCC5AB29A92A28005506AC /* WeekdayView.swift in Sources */,
 				0A20216929A6711C00408CAD /* BaseController.swift in Sources */,
 				0A20214A29A65FF900408CAD /* SceneDelegate.swift in Sources */,
 			);
