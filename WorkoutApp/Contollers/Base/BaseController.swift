@@ -19,9 +19,9 @@ class BaseContoller: UIViewController {
         super.viewDidLoad()
         
         
-        configure()
-        addView()
-        layoutViews()
+        configureAppearance()
+        setupViews()
+        constraintViews()
     }
     
 }
@@ -29,13 +29,13 @@ class BaseContoller: UIViewController {
 @objc extension BaseContoller {
     
     
-    func addView() {
+    func setupViews() {
         
     }
     
-    func layoutViews() { }
+    func constraintViews() { }
     
-    func configure() {
+    func configureAppearance() {
         view.backgroundColor = Resources.Colors.background
     }
     func navBarLeftButtonHandler() {
