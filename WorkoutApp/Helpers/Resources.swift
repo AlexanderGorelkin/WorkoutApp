@@ -12,14 +12,14 @@ enum Resources {
     
     enum Colors {
         //Another colors
-        static var active = UIColor(hexString: "#437BFE")
-        static var nonactive = UIColor(hexString: "#929DA5")
-        static var separator = UIColor(hexString: "#E8ECEF")
-        static var secondary = UIColor(hexString: "F0F3FF")
+        static let active = UIColor(hexString: "#437BFE")
+        static let nonactive = UIColor(hexString: "#929DA5")
+        static let separator = UIColor(hexString: "#E8ECEF")
+        static let secondary = UIColor(hexString: "F0F3FF")
         //Title colors
-        static var titleGray = UIColor(hexString: "#545C77")
+        static let titleGray = UIColor(hexString: "#545C77")
         //Backgorund colors
-        static var background = UIColor(hexString: "#F8F9F9")
+        static let background = UIColor(hexString: "#F8F9F9")
         
     }
     
@@ -39,22 +39,23 @@ enum Resources {
             }
         }
         enum NavBar {
-            static var overview = "Today"
-            static var session = "High Intensity Cardio"
-            static var progress = "Workout Progress"
-            static var settings = "Settings"
+            static let overview = "Today"
+            static let session = "High Intensity Cardio"
+            static let progress = "Workout Progress"
+            static let settings = "Settings"
         }
         enum Overview {
-            static var allWorkoutsButton = "All workouts"
+            static let allWorkoutsButton = "All workouts"
             
         }
         enum Session {
-            static var navBarLeft = "Pause"
-            static var navBarRight = "Finish"
+            static let navBarStart = "Start  "
+            static let navBarPause = "Pause"
+            static let navBarRFinish = "Finish"
         }
         enum Progress {
-            static var navBarLeft = "Export"
-            static var navBarRight = "Details"
+            static let navBarLeft = "Export"
+            static let navBarRight = "Details"
         }
         enum Settings {
             
@@ -77,8 +78,8 @@ enum Resources {
             }
         }
         enum Common {
-            static var allWorkoutsButton = UIImage(systemName: "chevron.down")
-            static var addButton = UIImage(systemName: "plus.circle.fill")
+            static let allWorkoutsButton = UIImage(systemName: "chevron.down")
+            static let addButton = UIImage(systemName: "plus.circle.fill")
         }
     }
     
