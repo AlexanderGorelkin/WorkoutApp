@@ -8,8 +8,8 @@
 import UIKit
 
 class SessionController: BaseContoller {
-    private let timerView: BaseInfoView = {
-        let view = BaseInfoView()
+    private let timerView: TimerView = {
+        let view = TimerView()
         return view
     }()
 
