@@ -76,6 +76,9 @@ final class TimerView: WABaseInfoView {
         let goalValueDevider = duration == 0 ? 1 : duration
         let percent = tempCurrentValue / goalValueDevider
         
+        elapsedTimeValueLabel.text = getDisplayedString(from: Int(tempCurrentValue))
+        remainingTimeValueLabel.text = getDisplayedString(from: Int(duration) - Int(tempCurrentValue))
+        
         progressView.drawProgress(with: CGFloat(percent))
         
     }
@@ -158,4 +161,26 @@ extension TimerView {
         
         
     }
+}
+
+
+private extension TimerView {
+    
+    func getDisplayedString(from value: Int) -> String {
+        
+        let seconds = value % 60
+        let minutes = (value / 60) % 60
+        let hours = value / 3600
+        
+        let secondString = seconds < 10 ? "0\(seconds)" : "\(seconds)"
+        let minuteString = minutes < 10 ? "0\(minutes)" : "\(minutes)"
+        let hoursString = hours < 10 ? "0\(hours)" : "\(hours)"
+        
+        
+        
+        
+        return hours == 0 ? [minuteString, secondString].joined(separator: ":") : [hoursString, minuteString, secondString].joined(separator: ":")
+    }
+    
+    
 }
