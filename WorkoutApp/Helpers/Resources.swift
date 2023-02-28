@@ -18,6 +18,7 @@ enum Resources {
         static let secondary = UIColor(hexString: "F0F3FF")
         //Title colors
         static let titleGray = UIColor(hexString: "#545C77")
+        static let subtitle = UIColor(hexString: "#D8D8D8")
         //Backgorund colors
         static let background = UIColor(hexString: "#F8F9F9")
         
@@ -54,6 +55,8 @@ enum Resources {
             static let navBarRFinish = "Finish"
             static let elapsedTime = "Elapsed time"
             static let remainingTime = "Remaining time"
+            static let completedLabel = "Comleted".uppercased()
+            static let remainingLabel = "Remaining".uppercased()
         }
         enum Progress {
             static let navBarLeft = "Export"

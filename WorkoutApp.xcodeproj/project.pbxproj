@@ -26,6 +26,7 @@
 		0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */; };
 		0AED103229ACC03000F4DE90 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED103129ACC03000F4DE90 /* TimerView.swift */; };
 		0AED103529ACC0F400F4DE90 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED103429ACC0F400F4DE90 /* ProgressView.swift */; };
+		0AED103729ADF92F00F4DE90 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED103629ADF92F00F4DE90 /* PercentView.swift */; };
 		0AFCC5A929A92862005506AC /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5A829A92862005506AC /* WeekView.swift */; };
 		0AFCC5AB29A92A28005506AC /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5AA29A92A28005506AC /* WeekdayView.swift */; };
 		0AFCC5AD29A92D22005506AC /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCC5AC29A92D22005506AC /* Date+Extensions.swift */; };
@@ -54,6 +55,7 @@
 		0A8E9C3F29A75E6C00BBE834 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		0AED103129ACC03000F4DE90 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0AED103429ACC0F400F4DE90 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0AED103629ADF92F00F4DE90 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 		0AFCC5A829A92862005506AC /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		0AFCC5AA29A92A28005506AC /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		0AFCC5AC29A92D22005506AC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			children = (
 				0AED103129ACC03000F4DE90 /* TimerView.swift */,
 				0AED103429ACC0F400F4DE90 /* ProgressView.swift */,
+				0AED103629ADF92F00F4DE90 /* PercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				0A20216429A6632300408CAD /* Resources.swift in Sources */,
 				0AFCC5AD29A92D22005506AC /* Date+Extensions.swift in Sources */,
 				0A20215E29A661BE00408CAD /* TabBarController.swift in Sources */,
+				0AED103729ADF92F00F4DE90 /* PercentView.swift in Sources */,
 				0A20217229A674DF00408CAD /* SessionController.swift in Sources */,
 				0A8E9C4029A75E6C00BBE834 /* BaseView.swift in Sources */,
 				0AFCC5AB29A92A28005506AC /* WeekdayView.swift in Sources */,
