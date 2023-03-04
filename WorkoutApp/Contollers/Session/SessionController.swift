@@ -11,7 +11,7 @@ class SessionController: BaseContoller {
     private let timerView = TimerView()
     
     private lazy var statsView = StatsView(with: Resources.Strings.Session.workoutStats)
-    private lazy var stepsView = WABaseInfoView(with: Resources.Strings.Session.stapsCounter)
+    private lazy var stepsView = StepsView(with: Resources.Strings.Session.stapsCounter)
     
     
     private let timerDuration: Double = 15
@@ -66,7 +66,7 @@ extension SessionController {
             stepsView.leadingAnchor.constraint(equalTo: view.centerXAnchor, constant: 7.5),
             stepsView.topAnchor.constraint(equalTo: timerView.bottomAnchor, constant: 10),
             stepsView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
-            stepsView.heightAnchor.constraint(equalToConstant: 200)
+            stepsView.heightAnchor.constraint(equalTo: statsView.heightAnchor)
             
             
             
@@ -88,6 +88,12 @@ extension SessionController {
                                    .averagePace(value: "8'20''"),
                                    .totalSteps(value: "7,682"),
                                    .totalDistance(value: "8.25")
+        ])
+        
+        stepsView.configure(with: [.init(value: "8k", heightParam: 1, title: "2/14"),
+                                   .init(value: "7k", heightParam: 0.8, title: "2/15"),
+                                   .init(value: "5k", heightParam: 0.6, title: "2/16"),
+                                   .init(value: "6k", heightParam: 0.7, title: "2/17")
         ])
         
     }

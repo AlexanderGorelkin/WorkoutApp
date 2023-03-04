@@ -18,19 +18,19 @@ enum StatsItem {
         case .averagePace(value: let value):
             return .init(image: Resources.Images.Session.Stats.averagePace,
                          value: "\(value) / km",
-                         title: Resources.Strings.Session.averagePace)
+                         title: Resources.Strings.Session.averagePace.uppercased())
         case .heartRate(value: let value):
             return .init(image: Resources.Images.Session.Stats.heartRate,
                          value: "\(value) bpm",
-                         title: Resources.Strings.Session.heartRate)
+                         title: Resources.Strings.Session.heartRate.uppercased())
         case .totalDistance(value: let value):
             return .init(image: Resources.Images.Session.Stats.totalDistance,
                          value: "\(value) / km",
-                         title: Resources.Strings.Session.totalDistance)
+                         title: Resources.Strings.Session.totalDistance.uppercased())
         case .totalSteps(value: let value):
             return .init(image: Resources.Images.Session.Stats.totalSteps,
                          value: "\(value)",
-                         title: Resources.Strings.Session.totalSteps)
+                         title: Resources.Strings.Session.totalSteps.uppercased())
         }
     }
 }
