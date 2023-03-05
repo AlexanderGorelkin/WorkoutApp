@@ -47,7 +47,7 @@ final class WABarView: BaseView {
         
         valueLabel.text = data.value
 
-        titleLabel.text = data.title
+        titleLabel.text = data.title.uppercased()
     }
     
     required init?(coder: NSCoder) {
@@ -77,7 +77,7 @@ extension WABarView {
             barView.topAnchor.constraint(equalTo: valueLabel.bottomAnchor, constant: 5),
             barView.centerXAnchor.constraint(equalTo: centerXAnchor),
             barView.widthAnchor.constraint(equalToConstant: 17),
-            barView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: heightParam, constant: -40),
+            barView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: heightParam, constant: -40 * heightParam),
             
             titleLabel.topAnchor.constraint(equalTo: barView.bottomAnchor, constant: 10),
             titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
